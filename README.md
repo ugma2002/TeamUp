@@ -15,14 +15,13 @@ Real-time collaboration platform where users can discover, join, and contribute 
 **DB (start simple):** PostgreSQL  
 **Auth (MVP):** Email magic links (placeholder)  
 **Infra (later):** Docker, Docker Compose
+🗺️ **Architecture (planned)**
 
-## 🗺️ Architecture (planned)
-```mermaid
 flowchart LR
   A[React + React Flow] -- REST/WebSocket --> B(FastAPI)
   B -- pub/sub --> C[Redis]
   B -- SQL --> D[(PostgreSQL)]
-  B <-- logs --> E[Logging/Monitoring (to add)]
+  B -- logs --> E[Monitoring (Grafana/CloudWatch)]
 
 ## 📂 Planned Structure
 
