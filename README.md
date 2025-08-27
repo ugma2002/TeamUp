@@ -32,3 +32,9 @@ See a bigger diagram → [docs/architecture.md](docs/architecture.md)
 /frontend   # React + React Flow
 /backend    # FastAPI app
 /docs       # screenshots, diagrams
+
+
+** Screenshots**
+
+
+![TeamUp Architecture](architecture.png)
